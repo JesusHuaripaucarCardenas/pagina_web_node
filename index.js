@@ -8,6 +8,7 @@ app.get('/',(req,res) => {
     res.render('index.html');
 })
 
-app.listen(4000);
-
-console.log('servidor corriendo en el puerto 4000')
+app.listen(5000, () => {
+    console.log("Servidor corriendo en el puerto 5000");
+  });
+  
